@@ -1,4 +1,5 @@
 
+importFrom("methods", "as")
 importFrom("colorspace", "sRGB", "coords")
 
 export("ISCCNBScolours",
