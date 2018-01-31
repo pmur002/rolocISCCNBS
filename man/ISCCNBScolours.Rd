@@ -3,7 +3,7 @@
 \alias{ISCCNBScolours}
 \alias{ISCCNBScolors}
 \title{
-  The ISCC-NBS System of Colour Designation
+  An ISCC-NBS Colour List
 }
 \description{
   A colour list based on the ISCC-NBS System of Colour Designation.
