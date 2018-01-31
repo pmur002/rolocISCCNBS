@@ -6,6 +6,6 @@ Date: 2018-01-11
 Author: Paul Murrell
 Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
 Description:  A colour list and colour metric based on the ISCC-NBS System of Color Designation for use with the 'roloc' package for converting colour specifications to colour names.
-License: GPL2|GPL3
+License: GPL-2 | GPL-3
 Depends: roloc
 Imports: methods, colorspace

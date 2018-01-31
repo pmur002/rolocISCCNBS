@@ -5,7 +5,7 @@
 ISCCNBSnames <- readRDS(system.file("extdata", "block.rds",
                                     package="rolocISCCNBS"))
 
-ISCCNBSblock <- function(colour, colourList) {
+ISCCNBSblock <- function(colour, colourList, ...) {
     ## Convert colours to block name
     ## This gives us which block the colour is within
     RGB <- coords(colour)
