@@ -4,6 +4,9 @@
 ## expand.grid(0:255, 0:255, 0:255)
 ISCCNBSnames <- readRDS(system.file("extdata", "block.rds",
                                     package="rolocISCCNBS"))
+## Minor fixups for sRGB #000000 and #FFFFFF
+ISCCNBSnames[1] <- "black"
+ISCCNBSnames[2^24] <- "white"
 
 ISCCNBSblock <- function(colour, colourList, ...) {
     ## Convert colours to block name
