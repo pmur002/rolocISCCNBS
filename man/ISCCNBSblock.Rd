@@ -40,4 +40,9 @@ ISCCNBSblock(colour, colourList, \dots)
 \author{
   Paul Murrell
 }
+\examples{
+colourName(palette())
+colourName(palette(), colourList=ISCCNBScolours)
+colourName(palette(), colourList=ISCCNBScolours, colourMetric=ISCCNBSblock)
+}
 \keyword{ dplot }% use one of  RShowDoc("KEYWORDS")

@@ -16,6 +16,12 @@
 ISCCNBScolours
 }
 \format{ A \code{"colourList"} object. }
-\references{
+\author{
+  Paul Murrell
+}
+\examples{
+colourName(palette())
+colourName(palette(), colourList=ISCCNBScolours)
+colourName(palette(), colourList=ISCCNBScolours, colourMetric=ISCCNBSblock)
 }
 \keyword{ datasets }% use one of  RShowDoc("KEYWORDS")

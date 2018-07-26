@@ -1,8 +1,7 @@
 Package: rolocISCCNBS
 Type: Package
-Title: A colour list and colour metric based on the ISCC-NBS System of Color Designation
+Title: A Colour List and Colour Metric Based on the ISCC-NBS System of Color Designation
 Version: 0.1
-Date: 2018-01-11
 Author: Paul Murrell
 Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
 Description:  A colour list and colour metric based on the ISCC-NBS System of Color Designation for use with the 'roloc' package for converting colour specifications to colour names.
